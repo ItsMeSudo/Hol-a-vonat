@@ -1,0 +1,1 @@
+*/5 * * * * /usr/bin/python3 /var/www/html/updater/update-script.py >> /var/log/cron/updater.log 2>&1

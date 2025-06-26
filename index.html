@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hol a vonat?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <meta property="og:site_name" content="holavonat.serverhu.eu" />
+  <meta property="og:title" content="Hol a vonat?">
+  <meta name="twitter:title" content="Hol a vonat?">
+  <meta property="description" content="Magyar vonattérkép">
+  <meta property="og:description" content="Magyar vonattérkép">
+  <meta name="twitter:description" content="Magyar vonattétkép">
+  <meta property="og:image" content="https://holavonat.serverhu.eu/social.png?a">
+  <meta name="twitter:image" content="https://holavonat.serverhu.eu/social.png?a">
+  <meta property="og:site_name" content="holavonat.serverhu.eu">
+  <meta name="twitter:site" content="holavonat.serverhu.eu">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="header">Hol a vonat?</div>
+  <div id="map"></div>
+  <div id="timestamp">Utolsó frissítés: ...</div>
+  <div id="disclaimer">
+    <b>Figyelem!</b> Ez az oldal nem hivatalos és nem áll kapcsolatban a MÁV Csoporttal.
+    A fejlesztő semmilyen felelősséget nem vállal az oldal használatából eredő következményekért.
+    A megjelenített információk csak tájékoztató jellegűek, a fejlesztő nem garantálja azok pontosságát, teljességét
+    vagy időszerűségét.
+    A rendszer kb. 5 percenként frissül.
+    A honlap az eredeti <a href="https://holavonat.hu">holavonat.hu</a> alapján készült.
+  </div>
+  <div id="lazarjanosszomoru"><a href="?lazarjanosszomoru"></a></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
