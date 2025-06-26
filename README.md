@@ -1,8 +1,8 @@
 # Hol-a-vonat
 
 <p align="center">
-  <img src="https://i.imgur.com/WWeBROl.gif" height="300px" alt="xD"/>
-  <img src="https://i.imgur.com/nquEV1l.png" height="300px" alt="xD"/>
+  <img src="https://raw.githubusercontent.com/ItsMeSudo/Hol-a-vonat/main/img/xD.gif" height="300px" alt="xD"/>
+  <img src="https://raw.githubusercontent.com/ItsMeSudo/Hol-a-vonat/main/img/asd.png" height="300px" alt="xD"/>
 </p>
 
 ## Ez a weboldal ennyi. Tényleg.
