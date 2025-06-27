@@ -8,6 +8,18 @@ L.tileLayer('https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png', {
 
 let markers = [];
 
+const urlParams = new URLSearchParams(window.location.search);
+const link = document.getElementById("lazarLink");
+const container = document.getElementById("lazarjanosszomoru");
+
+if (window.location.search.includes('lazarjanosszomoru')) {
+  link.href = "/";
+  container.id = "lazarjanosszomoru-off";
+} else {
+  link.href = "?lazarjanosszomoru";
+  container.id = "lazarjanosszomoru";
+}
+
 function delayColor(level) {
   if (level >= 3) return 'red';
   if (level == 2) return 'orange';
